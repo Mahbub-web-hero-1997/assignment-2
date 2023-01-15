@@ -160,6 +160,23 @@
         text-align: center;
     }
 
+    .sponsor_img {
+        width: 95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-content: center;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .sponsor_img img {
+        width: 150px;
+        cursor: pointer;
+
+    }
+
 
 
 }
