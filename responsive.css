@@ -91,14 +91,14 @@
     }
 
     .experience_Year {
-        width: 40%;
+        width: 90%;
         height: 80px;
         background: rgba(255, 144, 14, 1);
-        margin-top: -100px;
+        margin-top: 10px;
         z-index: 11;
-        position: absolute;
-        bottom: -3%;
-        left: 30%;
+        position: static;
+        /* bottom: -3%;
+        left: 30%; */
         padding: 15px;
         border-radius: 5px;
         color: white;
@@ -109,6 +109,24 @@
         font-size: 30px;
         font-weight: bold;
 
+    }
+
+    .facts_Title {
+        margin-top: 100px;
+        margin-bottom: 10px;
+        text-align: center;
+
+    }
+
+    .facts_Title h1 {
+        font-size: 30px;
+        text-align: center;
+
+    }
+
+    .facts_Title p {
+        width: 95%;
+        font-size: 16px;
     }
 
 
