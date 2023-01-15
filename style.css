@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Aria Style */
+.header_Aria {
+    width: 100%;
+    background: #FFF4E7;
+    height: 100vh;
+}
+
+.nav_Container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.left_nav {
+    font-size: 20px;
+
+}
+
+.right_nav a {
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
