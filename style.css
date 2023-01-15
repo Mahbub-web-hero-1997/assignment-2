@@ -86,6 +86,7 @@
     justify-content: space-between;
     align-items: center;
     margin: auto;
+    margin-top: 40px;
 }
 
 .left_content {
@@ -127,4 +128,59 @@
     border-radius: 3px;
     cursor: pointer;
     margin-top: 15px;
+}
+
+/* experience_Section Style */
+.experience_Section {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px 30px;
+    margin-top: 40px;
+
+}
+
+.experience_Details {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience_Details h1 {
+
+    font-size: 50px;
+    border-left: 4px solid #FF900E;
+    text-align: left;
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+
+.experience_Details p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.experience_item {
+    box-shadow: -3px 4px 31px -18px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -3px 4px 31px -18px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -3px 4px 31px -18px rgba(0, 0, 0, 0.75);
+    padding: 8px 20px;
+    border-radius: 4px;
+}
+
+.experience_item h3 {
+    margin-top: 10px;
+}
+
+.experience_item p {
+    margin-top: 10px;
+}
+
+.experience_img {
+    margin-left: 100px;
+}
+
+.experience_img img {
+    width: 100%;
+    height: 90%;
 }
