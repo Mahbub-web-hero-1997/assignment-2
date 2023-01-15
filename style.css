@@ -242,8 +242,52 @@
 .summary {
     margin: auto;
     width: 150px;
-    height: 100px;
+    /* height: 100px; */
     border: 1px solid #FF900E;
     text-align: center;
     padding: 10px;
+    border-radius: 2px;
+}
+
+.summary:hover img {
+    scale: 1.1;
+    transition: .2s;
+}
+
+.sponsor_Container {
+    margin-top: 40px;
+
+}
+
+.sponsor_Container h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.sponsor_Container p {
+    font-size: 17px;
+    line-height: 20px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.sponsor_img {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.sponsor_img img {
+    width: 150px;
+    cursor: pointer;
+
 }

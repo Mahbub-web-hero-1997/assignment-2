@@ -129,6 +129,37 @@
         font-size: 16px;
     }
 
+    .summary_Container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+
+    }
+
+    .summary {
+        margin: auto;
+        width: 100px;
+        /* height: 90px; */
+        border: 1px solid #FF900E;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .sponsor_Container h1 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 10px;
+
+    }
+
+    .sponsor_Container p {
+        font-size: 16px;
+        line-height: 20px;
+        width: 94%;
+        text-align: center;
+    }
+
 
 
 }
